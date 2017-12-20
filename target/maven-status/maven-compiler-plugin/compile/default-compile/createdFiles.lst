@@ -1,0 +1,6 @@
+website_navigation/NewTest.class
+pages/SplashPage.class
+scenarios/AndroidSetup.class
+pages/HomePage.class
+website_navigation/CommonUtils.class
+test/StraitsTest.class

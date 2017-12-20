@@ -1,0 +1,4 @@
+test/StraitsTest.class
+pages/SplashPage.class
+scenarios/AndroidSetup.class
+pages/HomePage.class

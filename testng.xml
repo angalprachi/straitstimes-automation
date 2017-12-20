@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StraitTimes test">
+	<test name="NewTest">
+		<classes>
+      		<class name="website_navigation.NewTest" />
+      	</classes>
+	</test>
+	<!--test name="MobileTest">
+		<classes>
+      		<class name="test.StraitsTest" />
+      	</classes>
+	</test-->
+</suite>
