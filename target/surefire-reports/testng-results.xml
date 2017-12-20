@@ -10,20 +10,20 @@
 ]]>
     </line>
   </reporter-output>
-  <suite started-at="2017-12-20T11:14:13Z" name="StraitTimes test" finished-at="2017-12-20T11:15:06Z" duration-ms="52558">
+  <suite started-at="2017-12-20T12:20:29Z" name="StraitTimes test" finished-at="2017-12-20T12:21:28Z" duration-ms="58643">
     <groups>
     </groups>
-    <test started-at="2017-12-20T11:14:13Z" name="NewTest" finished-at="2017-12-20T11:15:06Z" duration-ms="52558">
+    <test started-at="2017-12-20T12:20:29Z" name="NewTest" finished-at="2017-12-20T12:21:28Z" duration-ms="58643">
       <class name="website_navigation.NewTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:website_navigation.NewTest@35e2d654]" started-at="2017-12-20T19:14:13Z" name="setup" finished-at="2017-12-20T19:14:41Z" duration-ms="27519" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:website_navigation.NewTest@1bd4fdd]" started-at="2017-12-20T20:20:29Z" name="setup" finished-at="2017-12-20T20:20:53Z" duration-ms="24134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:website_navigation.NewTest@35e2d654]" started-at="2017-12-20T19:14:41Z" name="login" finished-at="2017-12-20T19:14:59Z" duration-ms="18326" status="PASS">
+        <test-method signature="login()[pri:1, instance:website_navigation.NewTest@1bd4fdd]" started-at="2017-12-20T20:20:53Z" name="login" finished-at="2017-12-20T20:21:19Z" duration-ms="25379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="verifyMainArticleHasMedia()[pri:2, instance:website_navigation.NewTest@35e2d654]" started-at="2017-12-20T19:14:59Z" name="verifyMainArticleHasMedia" finished-at="2017-12-20T19:14:59Z" duration-ms="232" status="PASS">
+        <test-method signature="verifyMainArticleHasMedia()[pri:2, instance:website_navigation.NewTest@1bd4fdd]" started-at="2017-12-20T20:21:19Z" name="verifyMainArticleHasMedia" finished-at="2017-12-20T20:21:19Z" duration-ms="304" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[The main article has a picture/video. 
@@ -31,11 +31,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyMainArticleHasMedia -->
-        <test-method signature="verifyNavigationToMainArticle()[pri:3, instance:website_navigation.NewTest@35e2d654]" started-at="2017-12-20T19:14:59Z" name="verifyNavigationToMainArticle" finished-at="2017-12-20T19:15:05Z" duration-ms="5753" status="PASS">
+        <test-method signature="verifyNavigationToMainArticle()[pri:3, instance:website_navigation.NewTest@1bd4fdd]" started-at="2017-12-20T20:21:19Z" name="verifyNavigationToMainArticle" finished-at="2017-12-20T20:21:27Z" duration-ms="8127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationToMainArticle -->
-        <test-method signature="verifyArticlePageHasMedia()[pri:4, instance:website_navigation.NewTest@35e2d654]" started-at="2017-12-20T19:15:05Z" name="verifyArticlePageHasMedia" finished-at="2017-12-20T19:15:05Z" duration-ms="0" status="PASS">
+        <test-method signature="verifyArticlePageHasMedia()[pri:4, instance:website_navigation.NewTest@1bd4fdd]" started-at="2017-12-20T20:21:27Z" name="verifyArticlePageHasMedia" finished-at="2017-12-20T20:21:27Z" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[The page has been navigated to the main article, and the picture/video is present in the article. 
@@ -43,7 +43,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyArticlePageHasMedia -->
-        <test-method is-config="true" signature="close()[pri:0, instance:website_navigation.NewTest@35e2d654]" started-at="2017-12-20T19:15:05Z" name="close" finished-at="2017-12-20T19:15:06Z" duration-ms="679" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:website_navigation.NewTest@1bd4fdd]" started-at="2017-12-20T20:21:27Z" name="close" finished-at="2017-12-20T20:21:28Z" duration-ms="649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->

@@ -17,6 +17,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+/**Author : Prachi Angal **/
+
 public class NewTest {
 
 	public WebDriver driver;
@@ -24,6 +26,9 @@ public class NewTest {
 	Properties p = new Properties();
 	String mainArticleLink = null;
 
+	/*** 
+	 * Starts he browser and navigates to url
+	 */
 	@BeforeTest
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver", "./libs/chromedriver");
@@ -52,6 +57,9 @@ public class NewTest {
 		}
 	}
 
+	/*** 
+	 * Clicks on Login link, enters credentials on login page and signs in.
+	 */
 	@Test(priority = 1)
 	public void login() throws InterruptedException {
 		Thread.sleep(3000);
@@ -74,6 +82,9 @@ public class NewTest {
 		assertTrue(loginlink.getText().contains(p.getProperty("UserName")));
 	}
 
+	/*** 
+	 * Checks for picture/video on main article page and displays results
+	 */
 	@Test(priority = 2)
 	public void verifyMainArticleHasMedia() {
 		WebElement main_video = driver.findElement(By.xpath(p.getProperty("main_video")));
@@ -89,12 +100,19 @@ public class NewTest {
 		}
 	}
 
+	/*** 
+	 * Clicks on picture/video on main article page, navigates and verifies url of same picture/video on next page
+	 */
 	@Test(priority = 3)
 	public void verifyNavigationToMainArticle() {
 		WebElement main_video = driver.findElement(By.xpath(p.getProperty("main_video")));
 		main_video.click();
 		assertTrue(driver.getCurrentUrl().contains(mainArticleLink));
 	}
+	
+	/*** 
+	 * Verifies picture/video is present in the main article page
+	 */
 	@Test(priority = 4)
 	public void verifyArticlePageHasMedia() {
 		if (flag == true) {
@@ -113,6 +131,9 @@ public class NewTest {
 
 	}
 
+	/*** 
+	 * Closes the browser
+	 */
 	@AfterTest
 	public void close() {
 		driver.quit();
